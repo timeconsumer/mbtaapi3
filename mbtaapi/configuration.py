@@ -45,7 +45,7 @@ class Configuration(object):
         Constructor
         """
         # Default Base url
-        self.host = "https://localhost"
+        self.host = "https://api-v3.mbta.com/"
         # Default api client
         self.api_client = None
         # Temp file folder for downloading files
